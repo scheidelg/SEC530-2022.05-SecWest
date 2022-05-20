@@ -64,25 +64,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Use JavaScript to redirect based on current date.  If the current
-         date is before the date the edit URL expires, then redirect to the
-         edit URL; else redirect to the view URL. -->
     <script>
-      if (new Date() < new Date(2022, (05 - 1), 26)) {
-        window.location.href = "https://1drv.ms/o/s!AmX2EQD23qhmlEjxZrVtNa_Fj08W";
-      } else {
         window.location.href = "https://1drv.ms/o/s!AmX2EQD23qhmlEjJTklZEnu0dpvj";
-      }
     </script>
 
     <!-- HTTP redirect in case the JavaScript fails; initially use the edit
          URL; just ahead of edit URL expiration, update to the view
          URL. -->
-    <meta http-equiv="Refresh" content="0; url=https://1drv.ms/o/s!AmX2EQD23qhmlEjxZrVtNa_Fj08W" />
+    <meta http-equiv="Refresh" content="0; url=https://1drv.ms/o/s!AmX2EQD23qhmlEjJTklZEnu0dpvj" />
   </head>
   <body>
     <!-- Display message about redirect.  Initially use the edit URL; just
          ahead of edit URL expiration, update to the view URL. -->
-    <p>Redirecting to <a href="https://1drv.ms/o/s!AmX2EQD23qhmlEjxZrVtNa_Fj08W">the OneNote notebook</a> for SEC530 at SANS Security West 2022.</p>
+    <p>Redirecting to <a href="https://1drv.ms/o/s!AmX2EQD23qhmlEjJTklZEnu0dpvj">the OneNote notebook</a> for SEC530 at SANS Security West 2022.</p>
   </body>
 </html>
